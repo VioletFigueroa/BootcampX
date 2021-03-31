@@ -4,4 +4,4 @@ SELECT name,
   cohort_id
 FROM students
 WHERE NOT email like '%@gmail.com'
-AND phone IS null
+  AND phone IS null
